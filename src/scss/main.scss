@@ -139,7 +139,6 @@ a {
       grid-gap: 1.5rem;
       text-align: center;
 
-    
       &-icon {
         border-radius: 50%;
         background-color: $dark-color;
@@ -151,7 +150,6 @@ a {
         text-align: center;
         position: relative;
         transition: all 1s;
-         
 
         &:hover {
           background: black;
@@ -262,7 +260,7 @@ a {
 //contact
 #contact {
   &-a {
-    .button{
+    .button {
       cursor: pointer;
       width: 180px;
       height: 50px;
@@ -270,7 +268,7 @@ a {
       text-align: center;
       overflow: hidden;
       outline: 0;
-      transition: .4s;
+      transition: 0.4s;
       border: 0;
       outline: 0;
       letter-spacing: 1px;
@@ -280,30 +278,25 @@ a {
       border: 1px solid;
       border-radius: 10px;
 
-      &-span{
+      &-span {
         display: flex;
         width: 100px;
         height: 10px;
         background-color: #e5e5e5;
         filter: blur(8px);
         transform: rotate(110deg) translateX(10px) translateY(100px);
-        transition: .4s;
+        transition: 0.4s;
       }
-
     }
-   
-    .button:hover{
+
+    .button:hover {
       background-color: $main-color;
       color: #222121;
 
-      &-span{
+      &-span {
         transform: rotate(110deg) translateX(10px) translateY(-140px);
       }
-       
-     
     }
-    
-
 
     .text-fields {
       display: flex;
@@ -313,8 +306,6 @@ a {
       text-align: center;
       justify-content: center;
       align-items: center;
-
-     
 
       textarea {
         height: 100px;
