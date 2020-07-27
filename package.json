@@ -2,7 +2,9 @@
   "name": "nareshkumar.co.in",
   "version": "1.0.0",
   "description": "My personal portfolio",
-  "scripts": {},
+  "scripts": {
+    "build": "rm -rf dist && mkdir dist && cp -R src/img src/*.html dist && node-sass src/scss/ -o dist/css/ --recursive"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/winterwilliamson/nareshkumar.co.in.git"
@@ -18,7 +20,7 @@
     "url": "https://github.com/winterwilliamson/nareshkumar.co.in/issues"
   },
   "homepage": "https://github.com/winterwilliamson/nareshkumar.co.in#readme",
-  "dependencies": {
+  "devDependencies": {
     "node-sass": "^4.14.1"
   }
 }
