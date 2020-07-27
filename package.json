@@ -1,0 +1,21 @@
+{
+  "name": "nareshkumar.co.in",
+  "version": "1.0.0",
+  "description": "My personal portfolio",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/winterwilliamson/nareshkumar.co.in.git"
+  },
+  "keywords": [
+    "portfolio",
+    "naresh",
+    "nareshkumar"
+  ],
+  "author": "Nareshkumar S",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/winterwilliamson/nareshkumar.co.in/issues"
+  },
+  "homepage": "https://github.com/winterwilliamson/nareshkumar.co.in#readme"
+}
