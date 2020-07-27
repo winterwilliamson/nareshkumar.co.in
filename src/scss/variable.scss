@@ -1,0 +1,14 @@
+$website-width: 1280px;
+$light-color: #f4f4f4;
+$medium-color: #cccccc;
+$dark-color: black;
+$main-color: coral;
+$bg-image: url("../img/show.jpg");
+
+@function set-text-color($color) {
+  @if (lightness($color) > 50) {
+    @return red;
+  } @else {
+    @return rgb(123, 42, 190);
+  }
+}
