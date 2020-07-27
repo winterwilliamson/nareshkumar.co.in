@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/winterwilliamson/nareshkumar.co.in/issues"
   },
-  "homepage": "https://github.com/winterwilliamson/nareshkumar.co.in#readme"
+  "homepage": "https://github.com/winterwilliamson/nareshkumar.co.in#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
 }
