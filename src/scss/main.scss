@@ -172,8 +172,8 @@ a {
     .about-info {
       display: grid;
       grid-template-areas:
-        "bioimage bio bio "
-        "aw1 aw2 aw3";
+        "bioimage bio bio bio "
+        "aw1 aw2 aw3 aw4";
       grid-gap: 1rem;
     }
     .bio-image {
@@ -196,9 +196,13 @@ a {
     .award-3 {
       grid-area: aw3;
     }
+    .award-4 {
+      grid-area: aw4;
+    }
     .award-1 .fas,
     .award-2 .fas,
-    .award-3 .fas {
+    .award-3 .fas,
+    .award-4 .fas {
       color: $main-color;
       margin: 1rem;
     }
