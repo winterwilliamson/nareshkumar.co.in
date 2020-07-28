@@ -60,13 +60,9 @@
   }
   #about {
     &-a {
-      .about-info {
-        grid-template-areas:
-          "bioimage"
-          "bio"
-          "aw1"
-          "aw2"
-          "aw3";
+      .about-info,
+      .course {
+        grid-template-columns: 1fr;
       }
     }
   }
