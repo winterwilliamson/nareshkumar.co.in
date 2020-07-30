@@ -92,79 +92,21 @@ a {
 
 #home {
   &-a {
-    #timeline ul {
-      background: rgb(248, 28, 28);
-      padding: 50px 0;
+    .specials {
+      margin-top: 3rem;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 2rem;
 
-      li {
-        width: 200px;
-        margin: 0 auto;
-        position: relative;
-        padding-top: 50px;
-        list-style: none;
-        background-color: green;
-        color: white;
-
-        div {
-          background-color: coral;
-          width: 600px;
-          padding: 1rem;
-          position: relative;
-          bottom: 0;
-          border-radius: 5px;
-          transition: all 0.5s ease-in;
-          visibility: hidden;
-          opacity: 0;
-          color: white;
-        }
+      .icon {
+        width: 50px;
+        height: 50px;
       }
-    }
-    #timeline ul li:nth-child(odd) div {
-      left: 40px;
-      transform: translate(100px, 0);
-    }
-    #timeline ul li:nth-child(even) div {
-      left: -630px;
-      transform: translate(-100px, 0);
-    }
-    #timeline ul li::after {
-      content: "";
-      position: absolute;
-      left: 50%;
-      width: 25px;
-      height: 25px;
-      background: inherit;
-      bottom: 0;
-      transform: translateX(-50%);
-      border-radius: 50%;
-      transition: background 0.5s ease-in-out;
-    }
-    #timeline div:before {
-      content: "";
-      position: absolute;
-      bottom: 5px;
-      width: 0;
-      height: 0;
-      border-style: solid;
-    }
-    #timeline ul li:nth-child(odd) div::before {
-      left: -15px;
-      border-width: 8px 16px 8px 0;
-      border-color: transparent blue transparent transparent;
-    }
-    #timeline ul li:nth-child(even) div::before {
-      right: -15px;
-      border-width: 8px 0 8px 16px;
-      border-color: transparent transparent transparent blue;
-    }
 
-    #timeline ul li.show div {
-      transform: none;
-      visibility: visible;
-      opacity: 1;
-    }
-    #timeline ul li.show::after {
-      background: blue;
+      .fas {
+        color: $main-color;
+        padding-bottom: 0.4rem;
+      }
     }
   }
 
@@ -245,6 +187,7 @@ a {
     .bio p {
       font-size: 18px;
       margin-top: 20px;
+      color: black;
     }
 
     .course {
