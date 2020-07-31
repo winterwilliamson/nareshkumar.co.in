@@ -34,7 +34,6 @@
   #home-a .specials,
   #home-b .stats,
   #home-c .process,
-  #about-d .testimonials,
   .items {
     grid-template-columns: 1fr;
   }
@@ -88,43 +87,87 @@
         padding-bottom: 0;
       }
     }
+    &-c {
+      .process .g {
+        transform: translateX(-1800px);
+        animation: text 4s forwards ease-in 1s;
+      }
+      .process .h {
+        transform: translateX(1800px);
+        animation: text 5s forwards ease-in 1s;
+      }
+      .process .i {
+        transform: translateX(-1800px);
+        animation: text 6s forwards ease-in 1s;
+      }
+      .process .j {
+        transform: translateX(1800px);
+        animation: text 7s forwards ease-in 1s;
+      }
+      @keyframes text {
+        to {
+          transform: translateX(0);
+        }
+      }
+    }
   }
   &-b {
     .stats div {
       padding: 2rem 0 1rem 0;
     }
   }
-}
-#about {
-  &-a {
-    .about-info,
-    .course {
-      grid-template-columns: 1fr;
+
+  #about {
+    &-a {
+      .about-info,
+      .course {
+        grid-template-columns: 1fr;
+      }
+      .course .award-1 {
+        transform: translateX(-1800px);
+        animation: text 5s forwards ease-in 1s;
+      }
+      .course .award-2 {
+        transform: translateX(1800px);
+        animation: text 6s forwards ease-in 1s;
+      }
+      .award-3 {
+        transform: translateX(-1800px);
+        animation: text 7s forwards ease-in 1s;
+      }
+      .award-4 {
+        transform: translateX(1800px);
+        animation: text 8s forwards ease-in 1s;
+      }
+      @keyframes text {
+        to {
+          transform: translateX(0);
+        }
+      }
+    }
+  }
+  //contact
+  #contact-b .contact-info {
+    grid-template-columns: 1fr;
+
+    div {
+      margin-bottom: 1rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid #555;
+
+      &:last-child {
+        border: none;
+      }
+    }
+  }
+  #main-footer {
+    height: 7rem;
+
+    .footer-content {
+      flex-direction: column;
+      padding-bottom: 1rem;
+      height: 5rem;
     }
   }
 }
-//contact
-#contact-b .contact-info {
-  grid-template-columns: 1fr;
-
-  div {
-    margin-bottom: 1rem;
-    padding-bottom: 1rem;
-    border-bottom: 1px solid #555;
-
-    &:last-child {
-      border: none;
-    }
-  }
-}
-#main-footer {
-  height: 7rem;
-
-  .footer-content {
-    flex-direction: column;
-    padding-bottom: 1rem;
-    height: 5rem;
-  }
-}
-
 //landscape
