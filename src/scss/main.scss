@@ -262,7 +262,6 @@ a {
         transform: rotate(110deg) translateX(10px) translateY(-140px);
       }
     }
-
     .text-fields {
       display: flex;
       flex-direction: column;
@@ -274,6 +273,7 @@ a {
 
       textarea {
         height: 100px;
+        width: 100%;
       }
 
       .text-input {
@@ -282,11 +282,14 @@ a {
         margin-bottom: 10px;
         border-radius: 10px;
         text-align: center;
-        border: 2px solid coral;
-
-        .text-input:focus {
-          background-color: #cccccc;
-        }
+        background: #d4d4d4;
+        border: 2px solid #d4d4d4;
+      }
+      .text-input:focus {
+        border: 2px solid #ff0000;
+      }
+      .text-input:valid {
+        border: 2px solid rgb(55, 247, 55);
       }
     }
   }
