@@ -110,16 +110,18 @@
         }
       }
     }
-  }
-  &-b {
-    .stats div {
-      padding: 2rem 0 1rem 0;
+    &-b {
+      .stats div {
+        padding: 2rem 0 1rem 0;
+      }
     }
   }
 
   #about {
     &-a {
-      .about-info,
+      .about-info {
+        grid-template-columns: 1fr;
+      }
       .course {
         grid-template-columns: 1fr;
       }
