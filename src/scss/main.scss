@@ -25,6 +25,9 @@ h3,
 h4 {
   text-transform: uppercase;
 }
+.lead {
+  font-size: 30px;
+}
 
 //header
 
@@ -53,11 +56,10 @@ h4 {
   }
 }
 #logo {
-  height: 90px;
+  height: 70px;
   color: #fff;
   text-transform: uppercase;
-  margin-top: -20px;
-  font-size: 1rem;
+  margin-top: -8.5px;
 }
 
 #main-nav {
@@ -95,6 +97,10 @@ a {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       grid-gap: 2rem;
+
+      div p {
+        margin-top: 7px;
+      }
 
       .icon {
         width: 50px;
@@ -167,6 +173,10 @@ a {
         }
       }
     }
+
+    .process p {
+      margin-top: 7px;
+    }
   }
 }
 //about sections
@@ -176,6 +186,10 @@ a {
       display: grid;
       grid-template-columns: 1fr 2fr;
       grid-gap: 1rem;
+
+      img {
+        width: 100%;
+      }
 
       .bio h3 {
         text-align: center;
