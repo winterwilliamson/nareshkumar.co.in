@@ -149,6 +149,11 @@
     }
   }
   //contact
+  #contact-a {
+    .text-fields .text-input {
+      width: 70%;
+    }
+  }
   #contact-b .contact-info {
     grid-template-columns: 1fr;
 
