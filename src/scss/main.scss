@@ -239,6 +239,14 @@ a {
 //contact
 #contact {
   &-a {
+    .alert {
+      text-align: center;
+      padding: 10px;
+      background-color: #79c879;
+      color: white;
+      margin-bottom: 10px;
+      display: none;
+    }
     .button {
       cursor: pointer;
       width: 180px;
