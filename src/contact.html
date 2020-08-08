@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
+    <script src="scripts/contact.js" type="text/javascript"></script>
+
     <link
       href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,500;1,500&family=Lobster&display=swap"
       rel="stylesheet"
@@ -40,15 +45,13 @@
             <div class="bottom-line"></div>
             <p class="lead">Here is how you can reach me </p>
             <div class="alert">Your message send sucessfully</div>
-            <form>
+            <form id='contactForm'>
                 <div class="text-fields">
                     <input type="text" name="name" id="name" class="text-input name-input" placeholder="NAME" required>
                     <input type="email" name="email" id="email" class="text-input email-input" placeholder="EMAIL" required>
                     <input type="text" name="subject" id="subject" class="text-input subject-input" placeholder="SUBJECT">
                     <input type="text" name="phone" id="phone" class="text-input phone-input" placeholder="MOBILE NUMBER">
                     <textarea name="message" id="message" class="text-input message-input" placeholder="ENTER THE MESSAGE"></textarea>
-                    
-
              </div>
                 <button type="submit" class="button">Submit</button>
             </form>

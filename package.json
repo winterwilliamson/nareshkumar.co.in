@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "My personal portfolio",
   "scripts": {
-    "build": "rm -rf dist && mkdir dist && cp -R src/img src/*.html dist && node-sass src/scss/ -o dist/css/ --recursive"
+    "build": "rm -rf dist && mkdir dist && cp -R src/img src/scripts src/*.html dist && node-sass src/scss/ -o dist/css/ --recursive"
   },
   "repository": {
     "type": "git",
