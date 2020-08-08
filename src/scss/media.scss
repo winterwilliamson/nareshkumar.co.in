@@ -178,3 +178,15 @@
   }
 }
 //landscape
+@media (max-width: 300px) {
+  #header {
+    &-home {
+      background: $bg-image no-repeat center right/cover;
+      height: 100vh;
+
+      .header-content {
+        margin-bottom: -30px;
+      }
+    }
+  }
+}
