@@ -148,6 +148,16 @@
       }
     }
   }
+  //work
+  #work {
+    &-a {
+      .slide .imgb {
+        width: 300px;
+        height: 300px;
+      }
+    }
+  }
+
   //contact
   #contact-a {
     .text-fields .text-input {
