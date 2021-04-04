@@ -1,0 +1,30 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "learning",
+  "main": "app.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.6",
+    "env": "0.0.2",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.5",
+    "nodemailer": "^6.5.0",
+    "nodemon": "^2.0.7",
+    "validator": "^13.5.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon db.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/winterwilliamson/project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/winterwilliamson/project/issues"
+  },
+  "homepage": "https://github.com/winterwilliamson/project#readme"
+}

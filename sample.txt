@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nareshkumar</title>
+    
+    <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,500;1,500&family=Lobster&display=swap"
+    rel="stylesheet" >
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <section id="home">
+        <div class="header">
+            
+            <nav class="navbar navbar-expand-lg bg-dark">
+                <a class="navbar-brand   " href="">PORTFOLIO</a>
+                <button class="navbar-toggler bg-success  " type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon bg-warning "></span>
+                  </button>
+                  <div class="collapse navbar-collapse " id="navbarTogglerDemo02">
+                    
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item  "><a class="nav-link" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#service">Service</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                              </div></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                  </div>
+                  </nav>
+                  <header id="header-home">
+                    <div class="header-content">
+                       <div class="text-1">Hello my, Name Is
+                       </div>
+                       <div class="text-2">NareshKumar S
+                    </div>
+                    <div class="text-3">And I am a <span class="typing"></span>
+                    </div>
+                    <a href="#service">View My Project</a>
+                      </div>
+
+                    
+                  </header>
+                 
+        </div>
+    </section>
+   
+        <section class="section-one" >
+            <div class="specialize">
+                <h1>I SPECIALIZE IN</h1>
+                <div class="bottom-line"></div>
+                <h3>I have a par excellence in Photoshop and creating Websites.</h3>
+            </div>
+            
+            <div class="specials">
+                <div class="box">
+                    <span></span>
+                    <div class="content">
+                        <img class="icon" src="https://img.icons8.com/clouds/100/000000/camera.png"/>
+                        <h2>JUNIOUR RETOUCHER</h2>
+                        <p> Photo retouching refers to the process of manipulating photographs in order to slightly change the looks of a subject. This includes basic fixes, like erasing pimples or making a ruddy complexion appear even.     </p>
+        
+        
+        
+                    </div>
+        
+                </div>
+           
+    
+    
+                <div class="box">
+                    <span></span>
+                    <div class="content">
+                        <img class="icon" src="https://img.icons8.com/cotton/64/000000/pen-2.png"/>
+                        <h2>CLIPPING PATH</h2>
+                        <p> Clipping path is the Photoshop technique used with the Pen Tool  to remove the background from an image. Clipping path is generally used when the subject of the image has sharp, smooth edges. A poorly drawn clipping path can result in images that don't look real or natural.
+                        </p>
+        
+        
+        
+                    </div>
+        
+                </div>
+    
+            
+    
+           
+                <div class="box">
+                    <span></span>
+                    <div class="content">
+                        <img class="icon" src="https://img.icons8.com/nolan/64/layers.png"/>
+                        <h2>LAYER MASK</h2>
+                        <p> Layer masking is a reversible way to hide part of a layer. This gives you more editing flexibility than permanently erasing or deleting part of a layer. Layer masking is useful for making image composites, cutting out objects for use in other documents, and limiting edits to part of a layer.
+                   
+                                 </p>
+        
+        
+        
+                    </div>
+        
+                </div>
+            
+            
+           
+                <div class="box">
+                    <span></span>
+                    <div class="content">
+                        <img class="icon" src="https://img.icons8.com/fluent/48/000000/domain.png"/>
+                        <h2>WEBSITES</h2>
+                        <p>  Websites are created using Html5 and React.The layout and appearance of the elements within a webpage are typically defined using CSS, A content strategy will guide your plans for the what, where and when of content creation. i will do the responsible for designing, coding and modifying websites, from layout to function and according to a client's specifications.
+                  
+                        </p>
+            
+        
+        
+        
+                    </div>
+        
+                </div>
+            
+            
+           
+                <div class="box">
+                    <span></span>
+                    <div class="content">
+                        <img class="icon" src="https://img.icons8.com/clouds/100/000000/web-imac.png"/>
+          <h2>WEB APPLICATIONS</h2>
+                        <p>
+                            A web application is a computer program that utilizes web browsers and web technology to perform tasks over the Internet A web application is an application software that runs on a web server. very well in designing coding and modifying web Applications, from layout to function and according to a client's specifications.
+                    </p>
+        
+        
+        
+                    </div>
+        
+                </div>
+           
+            
+            
+                <div class="box">
+                    <span></span>
+                    <div class="content">
+                        <img class="icon" src="https://img.icons8.com/cute-clipart/64/000000/developer-mode.png"/>
+                
+                        <h2>FRONT END DEVELOPER</h2>
+                        <p>
+                            Front end development manages everything that users visually see first in their browser or application responsible for the look, feel and ultimately design of the site. for implementing visual elements that users see and interact with in a web application.
+                        </p>
+        
+        
+        
+                    </div>
+        
+                </div>
+        
+            </div>
+            
+        
+
+        </section>
+        <section id="about" class="text-center py-2">
+            <div class="me">
+
+            
+            <div class="about">
+                <h2 class="sectio-title">About Me</h2>
+                <div class="botttom-line"></div>
+                <p class="lead">Let me tell you a little about myself and what I do...</p></div>
+                <div class="about-info">
+                    <img src="img/about.jpg" alt="" class="bio-image"></img>
+                    <div class="bio bg-light">
+                        <h3>Your Project safe in hands</h3>
+                        <p >I have a par excellence in Photoshop with a three years experience in this field. i have a great knowledge HTML5 and REACT i can create any kind of WEBSITES and WEB APPLICATIONS. My services will be done within your preferred time with no compramasions in the service promised. Once you had become my customer i can guarantee that i will be one of your most trusted service providers.</p >
+                   </div>
+                  </div>
+                </div>
+                 
+                
+                    <div class="container">
+                        <div class="py">
+                            <h2 class="section-title">OUR SKILLS</h2>
+                            <div class="bottom-line"></div>
+                        </div>
+                        <div class="text">
+                            <h4>Adobe PHOTOSHOP</h4>
+                            <div class="progress">
+                              <div style="width:90%"></div>
+                            </div>
+                            <h4>HTML & CSS</h4>
+                            <div class="progress">
+                              <div style="width:95%"></div>
+                            </div>
+                            <h4>Sass</h4>
+                            <div class="progress">
+                              <div style="width:90%"></div>
+                            </div>
+                            <h4>Git</h4>
+                            <div class="progress">
+                              <div style="width:80%"></div>
+                            </div>
+                            <h4>Javascript</h4>
+                            <div class="progress">
+                              <div style="width:85%"></div>
+                            </div>
+                            <h4>REACT</h4>
+                            <div class="progress">
+                              <div style="width:75%"></div>
+                            </div>
+                  
+                        </div>
+                        
+                      
+                    </div>  
+              
+                  
+               
+    
+            
+    
+        </section>
+        
+            <section class="testimonial" id="service">
+                <div class="service">
+                    <h2 class="section-title">My Work</h2>
+            <div class="bottom-line"></div>
+            <p class="lead">Check out some of my projects.</p>
+                </div>
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="2000">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active item1">
+                       <img src="./img/img1.jpg" />
+                      </div>
+                      <div class="carousel-item item2">
+                        <img src="./img/img2.jpg" />
+                      </div>
+                      
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                
+                    
+                
+        
+            
+        </section>
+        <section id="contact" class="text-center py-3">
+            <div class="contact-title">
+                <h2 class="section-title">Contact us</h2>
+                <div class="bottom-line"></div>
+                <p class="lead">Here is how you can reach me </p>
+                <h2>GET IN TOUCH</h2>
+                </div>
+                <div class="contact me" style="margin-left: 280px;">
+                    
+                        <div class="specials">
+                            <div class="contact-info  box" style="display: grid;">
+                                <div class="content">
+                                    <i class="fas fa-envelope fa-2x"></i>
+                                    <h4>GMAIL</h4>
+                                    <p>wintersoldier354@gmail.com</p>
+                
+                                </div>
+                                <div class="content">
+                                    <i class="fas fa-phone fa-2x"></i>
+                                    <h4>Phone</h4>
+                                    <p>6382448178</p>
+                                    
+                                </div>
+                                <div class="content">
+                                    <i class="fas fa-address-book fa-2x"></i>
+                                    <h4>Address</h4>
+                                    <p>Coimbatore</p>
+                                    
+                                </div>
+                
+                            </div>
+                
+                        </div>
+                        
+                    
+                    <div class="col-lg-5 pl-lg-5 pb-3 py-lg-5">
+                        <form action="/register" method="POST" id="registration-form">
+                  
+                            <div class="form-group">
+                              <label for="username-register" class="text-muted mb-1"><small>Username</small></label>
+                              <input name="username" id="username-register" class="form-control" type="text" placeholder="Pick a username" autocomplete="off">
+                            </div>
+                            
+                            <div class="form-group">
+                              <label for="email-register" class="text-muted mb-1"><small>Email</small></label>
+                              <input name="email" id="email-register" class="form-control" type="text" placeholder="you@example.com" autocomplete="off">
+                            </div>
+                            
+                            <div class="form-group">
+                              <label for="number-register" class="text-muted mb-1"><small>Number</small></label>
+                              <input name="number" id="number-register" class="form-control" type="number" placeholder="Enter The Number">
+                            </div>
+
+
+                            <div class="form-group">
+                                <label for="text-register" class="text-muted mb-1"><small>Message</small></label>
+                                <textarea name="text" id="text-register" class="form-control" type="textarea" placeholder="Enter The Message" ></textarea>
+                              </div>
+                            
+                            <button type="submit" class="py-3 mt-4 btn btn-lg btn-success btn-block">Sign up for OurApp</button>
+                            
+                          </form>
+                        </div>
+
+                </div>
+                </section>
+        
+            <section> 
+                <footer>
+                    <div id="main-footer">
+                        <div class="footer-content container">
+                          <p>Copyright © Nareshkumar 2020: All Rights Reserved</p> </div>
+                          <div class="social">
+                          
+                           <li><a href="https://www.facebook.com/profile.php?id=100014251563261" target="_blank"><i class="fab fa-facebook fa-2x"></i></a></li> 
+                            <li><a href="https://www.instagram.com/nareshu__/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/nareshkumar-s-193a37186/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+                            </li>
+                            <li><a href="https://github.com/winterwilliamson" target="_blank"><i class="fab fa-github fa-2x"></i></a></li>
+                
+                          </div>
+                
+                       
+                
+                      </div>
+                </footer>
+            </section>
+
+            <script src="./header.js"></script>
+       
+       
+        
+
+
+               
+                    
+            
+
+
+
+        
+        
+
+
+
+
+   
+    
+</body>
+</html>

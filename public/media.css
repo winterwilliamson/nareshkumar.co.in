@@ -1,0 +1,110 @@
+@media (max-width: 1104px) {
+  .nav {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 950px) {
+  .nav {
+    padding: 0 50px;
+  }
+  .link .menu {
+    position: fixed;
+    background: #111;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: -100%;
+    text-align: center;
+    padding-top: 80px;
+    transition: all 0.5s ease;
+  }
+  .menu-btn i.active:before {
+    content: "\f00d";
+  }
+
+  .link .menu.active {
+    left: 0;
+  }
+  .menu-btn {
+    display: block;
+    z-index: 999;
+  }
+  .link .menu li {
+    display: block;
+  }
+  .link .menu li a {
+    display: inline-block;
+    margin: 20px 0;
+    font-size: 25px;
+  }
+
+  .header-content .text-1 {
+    font-size: 25px;
+  }
+  .header-content .text-2 {
+    font-size: 70px;
+  }
+  .header-content .text-3 {
+    font-size: 35px;
+    padding: 10px 30px;
+  }
+}
+@media (max-width: 700px) {
+  .nav {
+    padding: 0 23px;
+  }
+  .link .menu {
+    width: 100%;
+  }
+  .header-content .text-1 {
+    font-size: 27px;
+  }
+  .header-content .text-2 {
+    font-size: 50px;
+  }
+  .header-content .text-3 {
+    font-size: 28px;
+    padding: 9px 25px;
+  }
+  .about-info {
+    grid-template-columns: 1fr;
+  }
+
+  .item2 img,
+  .item1 img {
+    width: 300px;
+    height: 400px;
+  }
+
+  .contact {
+    grid-template-columns: 1fr;
+    margin-left: -3px;
+  }
+
+  .contact div form button {
+    width: 50%;
+    margin: auto;
+  }
+  .contact div form .form-control {
+    width: 80%;
+    margin: auto;
+  }
+
+  #main-footer {
+    display: grid;
+  }
+  #main-footer div {
+    margin-left: -15px;
+  }
+  #main-footer #main-footer .social {
+    margin-left: -10px;
+  }
+}
+@media (max-width: 500px) {
+  .header-content .text-2 {
+    font-size: 50px;
+  }
+  .header-content .text-3 {
+    font-size: 25px;
+  }
+}
